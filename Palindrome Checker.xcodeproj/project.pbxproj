@@ -11,6 +11,9 @@
 		08240A5B26F4272800EF5363 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08240A5A26F4272800EF5363 /* ContentView.swift */; };
 		08240A5D26F4272900EF5363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08240A5C26F4272900EF5363 /* Assets.xcassets */; };
 		08240A6026F4272900EF5363 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08240A5F26F4272900EF5363 /* Preview Assets.xcassets */; };
+		08240A6B26F4276600EF5363 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08240A6A26F4276600EF5363 /* HomeView.swift */; };
+		08240A6D26F4277700EF5363 /* Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08240A6C26F4277700EF5363 /* Palindrome.swift */; };
+		08240A6F26F4278700EF5363 /* PalindromeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08240A6E26F4278700EF5363 /* PalindromeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		08240A5C26F4272900EF5363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08240A5F26F4272900EF5363 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		08240A6126F4272900EF5363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08240A6A26F4276600EF5363 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		08240A6C26F4277700EF5363 /* Palindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palindrome.swift; sourceTree = "<group>"; };
+		08240A6E26F4278700EF5363 /* PalindromeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,9 @@
 		08240A5726F4272800EF5363 /* Palindrome Checker */ = {
 			isa = PBXGroup;
 			children = (
+				08240A6926F4274A00EF5363 /* Model */,
+				08240A6826F4274500EF5363 /* View */,
+				08240A6726F4273200EF5363 /* View Model */,
 				08240A5826F4272800EF5363 /* Palindrome_CheckerApp.swift */,
 				08240A5A26F4272800EF5363 /* ContentView.swift */,
 				08240A5C26F4272900EF5363 /* Assets.xcassets */,
@@ -67,6 +76,30 @@
 				08240A5F26F4272900EF5363 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		08240A6726F4273200EF5363 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				08240A6E26F4278700EF5363 /* PalindromeViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		08240A6826F4274500EF5363 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				08240A6A26F4276600EF5363 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		08240A6926F4274A00EF5363 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				08240A6C26F4277700EF5363 /* Palindrome.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +171,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08240A6B26F4276600EF5363 /* HomeView.swift in Sources */,
 				08240A5B26F4272800EF5363 /* ContentView.swift in Sources */,
+				08240A6D26F4277700EF5363 /* Palindrome.swift in Sources */,
 				08240A5926F4272800EF5363 /* Palindrome_CheckerApp.swift in Sources */,
+				08240A6F26F4278700EF5363 /* PalindromeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
